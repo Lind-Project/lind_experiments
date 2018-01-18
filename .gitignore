@@ -1,0 +1,11 @@
+test_scripts/
+perf_result/
+final_result/
+
+*.swp
+*.py.swp
+*.log
+*.pyc
+*.data
+*.data.old
+.DS_Store
