@@ -81,7 +81,7 @@ def get_bash_script_time(bash_script):
   - bash_script: Bash script, note that you should provide script with
                  absolute path.
   """
-  time = get_unix_time(subprocess.call, (bash_script, ), {'shell': True})
+  time = get_unix_time(subprocess.call, ('bash ' + bash_script, ), {'shell': True})
   return time
 
 
@@ -99,8 +99,8 @@ def collect_perf_record(bash_script):
                  absolute path.
   """
   command = 'sudo perf record -m 10M -e syscalls:sys_enter_* -e syscalls:sys_exit_* bash ' + bash_script
-  subprocess.call(command, shell = True);
   print(command)
+  subprocess.call(command, shell = True)
 
 
 
