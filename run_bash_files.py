@@ -5,14 +5,18 @@
 <Started>
   January 10, 2018.
 
+<Last Modified>
+  January 24, 2018.
+
 <Author>
   Artiom Baloian <artiom.baloian@nyu.edu>
+  Yiwen Li <liyiwen@nyu.edu>
 
 <Copyright>
   See LICENSE for licensing information.
 
 <Purpose>
-  Fid all bash scripts on Unix based OS and run them. Current module we use
+  Find all bash scripts on Unix based OS and run them. Current module we use
   for experimenting Lind project's caging.
 """
 
@@ -87,7 +91,7 @@ def get_bash_script_time(bash_script):
 def collect_perf_record(bash_script):
   """
   Function runs the following command to let perf collect the system call timing
-  info for running each script: (you may need “sudo")
+  info for running each script: (you may need "sudo")
   perf record -m 10M -e syscalls:sys_enter_* -e syscalls:sys_exit_* bash ./script_name
 
   Arguments:
@@ -124,6 +128,8 @@ def parse_perf_result_file(perf_result_file):
 
   is_syscall_enter = -1
   for line in perf_result_file:
+     if line[0] == '#':
+       continue
      words = line.split(":")
      words_0 = words[0].split("] ")
      syscall_status = words[2].split("_")[1]
@@ -176,7 +182,7 @@ def get_final_result(perf_result_file, final_result_file, unix_time):
 
   final_result_file.write("real_time : " + str(unix_time["real"]) + "\n");
   final_result_file.write("user_time : " + str(unix_time["user"]) + "\n");
-  final_result_file.write("sys_time : " + str(unix_time["sys"]) + "\n");
+  final_result_file.write("sys_time : " + str(unix_time["sys"]) + "\n\n");
 
 
   syscall_total_time = 0.0
@@ -188,7 +194,7 @@ def get_final_result(perf_result_file, final_result_file, unix_time):
     final_result_file.write(syscall + ": " + str(syscall_invoked_times_dict[syscall]) + " " + str(syscall_timing_dict[syscall]) + "\n")
 
   #print("syscall_total_time = " + str(syscall_total_time))
-  final_result_file.write("syscall_total_time = " + str(syscall_total_time) + "\n")
+  final_result_file.write("\nsyscall_total_time = " + str(syscall_total_time) + "\n")
 
   #print("syscall_total_invoked_times = " + str(syscall_total_invoked_times))
   final_result_file.write("syscall_total_invoked_time = " + str(syscall_total_invoked_times) + "\n")
