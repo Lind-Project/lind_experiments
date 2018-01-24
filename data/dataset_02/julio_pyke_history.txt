@@ -1,0 +1,1000 @@
+more .bash_history
+whoami
+exit
+sudo ps -ef | grep lmgrd
+cd /opt
+ls
+cd rlm
+ls
+less rlm.lic
+history | grep rlm
+sudo su -
+ls
+cd /etc/init.d
+ls
+sudo ./rlm.sh start
+./rlm.sh stop
+sudo ./rlm.sh stop
+sudo ./rlm.sh start
+history | grep lmgrd
+sudo su -
+exit
+sudo ps -ef | grep cadence
+tail /var/log/lic_logs/cadence.log
+df -h
+tail /var/log/lic_logs/cadence.log
+exit
+ps -ef | grep -i cadence
+sudo su - snowball
+history | grep lmgrd
+history | grep lmstat
+cd /opt
+ls
+cd rlm
+ls
+cd ..
+cd cadence
+ls
+ls -l
+cd LCU
+ls
+cd bin
+ls
+cd ..
+ls
+cd License/
+ls
+cd ..
+sudo updatedb
+sudo locate lmstat
+sudo /opt/cadence/LCU/tools.lnx86/bin/lmstat -a -c /opt/cadence/License/License2014.lic
+sudo /opt/cadence/LCU/tools.lnx86/bin/lmstat -a -c /opt/cadence/License/License2014.lic | grep -i ade
+exit
+ls -la
+mkdir .ssh
+who
+netstat -tuna
+df -h
+ps -ef | grep lmgrd
+less /opt/mentorgraphics/mgls_v9-11_3-4-0.aol/License2015.lic
+sudo less /opt/mentorgraphics/mgls_v9-11_3-4-0.aol/License2015.lic
+history | grep lmstat
+cd /opt
+ll
+cd rlm
+ll
+cd /
+ll
+cd /opt
+ll
+cd cadence
+ll
+cd ..
+cd mentorgraphics/
+ll
+cd mgls_v9-11_3-4-0.aol/
+ll
+sudo ps -ef | grep lmgrd
+cd /opt/mentorgraphics/
+ll
+cd mgls_v9-11_3-4-0.aol/
+ll
+cd bin
+ll
+./lmstat -a -c /opt/mentorgraphics/mgls_v9-11_3-4-0.aol/License2015.lic
+cd ~
+ps -ef | grep rlm
+cd /opt/rlm
+ll
+sudo ps -ef | grep lmgrd
+sudo less /var/log/lic_logs/mentorgraphics.log
+cd /opt/xilinx/
+ll
+./lmutil lmstat -a -c /opt/xilinx/license/Xilinx.lic
+sudo ./lmutil lmstat -a -c /opt/xilinx/license/Xilinx.lic
+ifconfig
+sudo netstat -tuna
+ifconfig
+sudo ps -ef | grep - cadence
+sudo ps -ef | grep -i cadence
+exit
+sudo ps -ef | grep rpcbind
+exit
+sudo yum -y update
+cd /var/log
+ll
+ll | more
+sudo reboot
+sudo ps -ef | grep cadence
+sudo su -
+exit
+sudo ps -ef | grep -i ansys
+ps -ef
+sudo su -
+exit
+ifconfig
+sudo yum -y update
+sudo reboot
+sudo su -
+exit
+sudo ps -ef | more
+sudo less /var/log/lic_logs/cadence.log
+cd /var/log/lic_logs/
+ll
+less cadence.log
+less cadence.log | sg175
+less cadence.log | grep sg175
+exit
+sudo reboot
+sudo ps -ef | grep cadence
+less /var/log/lic_logs/cadence.log | grep mmc648
+less /var/log/lic_logs/synopsys.log | grep mmc648
+history | grep lmstat
+sudo ps -ef | grep synopsys
+/opt/synopsys/11.9/amd64/bin/lmstat -a -c /opt/synopsys/11.9/admin/license/license2014.lic
+less /var/log/lic_logs/synopsys.log | grep mmc648
+exit
+cd /home
+sudo su -
+exit
+sudo su -
+exit
+sudo yum -y update
+sudo su -
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+exit
+sudo mount
+sudo reboot
+sudo vim /etc/ssh/sshd_config 
+exit
+sudo vim /etc/hosts
+sudo sevice ssh restart
+sudo service sshd restart
+exit
+sudo shutdown -h now
+sudo less /etc/sysconfig/network-scripts/ifcfg-eth
+sudo less /etc/sysconfig/network-scripts/ifcfg-eth0
+exit
+sudo su -
+history | grep lmgrd
+sudo su - snowball
+sudo reboot
+ps -ef | grep lmgrd
+cd /var/log/lic_logs/
+ll
+netstat -tuna
+ll
+less cadence.log 
+less xilinx.log 
+exit
+ifconfig
+exit
+sudo ps -ef | grep sysnopsys
+sudo ps -ef | grep synopsys
+sudo less /var/log/lic_logs/synopsys.log | grep nr1529
+exit
+sudo su -
+exit
+sudo yum -y update
+sudo restart
+sudo reboot
+sudo ps -ef | grep cadence
+sudo ps -ef | grep synopsys
+sudo ps -ef | grep ansys
+exit
+sudo service iptables status
+sudo vim /etc/sysconfig/iptables
+sudo su -
+sudo su - snowball
+exit
+sudo ps -ef | grep -i comsol
+sudo less /var/log/lic_logs/comsol.log
+exit
+sudo su - snowball
+htop
+top
+netstat -tunap
+df -h
+exit
+ps -ef | grep snowball
+history
+cd /opt/rlm
+ls
+less rlm.lic
+man cp
+sudo cp -pc rlm.lic rlm.2016
+ls -l
+sudo vim rlm.lic
+sudo ps -ef | grep rlm
+history | grep rlm
+ls
+ls -l
+sudo -u snowball ./rlm stop
+sudo ./rlm.sh stop
+cd /etc/rc.local
+less /etc/rc.local
+sudo locate rlm.sh
+cd /etc/rc.d/init.d
+ls -l
+sudo rlm.sh stop
+sudo ./rlm.sh stop
+sudo ./rlm.sh start
+q
+sudo ./rlm.sh stop
+sudo less /opt/rlm/rlm.lic 
+sudo vim /etc/rlm/rlm.lic
+sudo vim /opt/rlm/rlm.lic
+sudo less /opt/rlm/rlm.2016 
+sudo vim /opt/rlm/rlm.lic
+sudo less /opt/rlm/rlm.2016 
+sudo vim /opt/rlm/rlm.lic
+sudo less /opt/rlm/rlm.2016 
+sudo ./rlm.sh start
+sudo reboot
+sudo ps -ef | grep rlm
+exit
+df -h
+sudo su -
+ps -ef | grep -i synopsys
+sudo less /opt/synopsys/11.11/admin/license/license2014.lic
+sudo less /var/log/messages
+sudo less /var/log/secure
+clear
+less /var/log/messages
+sudo less /var/log/messages
+sudo netstat -tunap
+exit
+sudo ps -ef | grep xwin
+sudo su -
+sudo ps -ef | grep cadence
+sudo less /opt/cadence/License/License2014.lic
+sudo less /var/log/lic_logs/cadence.log
+sudo less /var/log/lic_logs/cadence.log | grep jrivera
+sudo less /opt/cadence/License/License2014.lic | grep -i voltus
+sudo less /var/log/lic_logs/cadence.log | grep jrivera
+sudo less /opt/cadence/License/License2014.lic | grep -i voltus
+cd /opt
+ll
+cd cadence/
+ll
+cd LCU/
+ll
+cd iscape
+ll
+cd bin
+ll
+cd ..
+ll
+sudo ps -ef | grep cadence
+pwd
+cd ..
+ll
+cd ~
+ll
+mkdir installscape
+mv IScape04.23-s012lnx86.t.Z installscape/
+ll
+cd installscape/
+ll
+tar -xvzf IScape04.23-s012lnx86.t.Z 
+exit
+cd installscape/
+ll
+cd iscape/bin
+./iscape.sh
+sudo less /etc/rc.local 
+cd /opt/cadence/
+ll
+cd LCU/
+ll
+ps -ef | grep cadence
+/opt/cadence/LCU/tools.lnx86/bin/lmdown -c /opt/cadence/License/License2014.lic
+cd ..
+ll
+mv LCU/ LCU_old
+sudo mv LCU/ LCU_old
+mkdir LCU
+sudo mkdir LCU
+ll
+sudo chown jrivera LCU
+ll
+cd ..
+ll
+sudo chown jrivera cadence/
+cd ..
+ll
+sudo chown jrivera opt/
+ll
+cd ~/installscape/iscape/bin/
+./iscape.sh
+pwd
+cd /opt/cadence/
+ll
+cd LCU
+ll
+cd /
+ll
+sudo chown snowball opt/
+ll
+cd opt
+ll
+sudo chown -R snowball:root cadence/
+cd cadence/
+ll
+cd /var/log/lic_logs/
+ll
+sudo touch cadence.20170308
+sudo cat cadence.log >> cadence.20170308 
+ll
+sudo su -
+sudo ps -ef | grep cadence
+sudo less /var/log/lic_logs/cadence.log
+pwd
+cd installscape/
+cd iscape/bin
+./iscape.sh
+sudo less /var/log/lic_logs/cadence.log
+pwd
+touch /home/jrivera/nyu_tandon_license.txt
+sudo cat /opt/cadence/License/License2014.lic >> /home/jrivera/nyu_tandon_license.txt 
+less /home/jrivera/nyu_tandon_license.txt 
+cd ~
+ll
+cd installscape/
+less /home/jrivera/nyu_tandon_license.txt 
+cd iscape/bin
+./iscape.sh
+voltus -no_gui
+cd ~
+voltus -no_gui
+cd /opt/cadence/LCU/
+ll
+cd bin
+ll
+cd ..
+ps -ef | grep cadence
+cd tools.lnx86/bin
+./lmstat -a -c 5280@pyke
+touch ~/lmstat_nyu_tandon.txt
+./lmstat -a -c 5280@pyke >> ~/lmstat_nyu_tandon.txt 
+./lmstat -c 5280@pyke
+ll
+sudo su -
+exit
+sudo su - snowball
+exit
+sudo ps -ef | grep snowball
+sudo less /opt/ansoft/flexlm/License.lic
+sudo less /var/log/lic_logs/ansoft.log
+sudo su - snowball
+exit
+sudo ps -ef | grep snowball
+exit
+sudo su - snowball
+exit
+ifconfig
+ll
+sudo ps -ef | grep snowball
+less 005056972F5D_20170410083203.lic 
+less /opt/agilent/license/License2014.lic
+sudo su -
+sudo su - snowball
+sudp cat 005056972F5D_20170410083203.lic >> /opt/agilent/license/License2014.lic
+sudo cat 005056972F5D_20170410083203.lic >> /opt/agilent/license/License2014.lic
+sudo su -
+sudo su - snowball
+sudo cp /opt/synopsys/11.11/admin/license/license2014.lic /opt/synopsys/11.11/admin/license/license.20170410
+sudo su - snowball
+cd /opt/synopsys//11.11/admin/
+ll
+cd ..
+ll
+sudo chown -R snowball 11.11/
+sudo su - snowball
+sudo su -
+sudo su - snowball
+exit
+sudo su - snowball
+exit
+sudo ps -ef | grep lmgrd
+sudo ps -ef | grep snowball
+less /etc/rc.local 
+ll /home
+sudo vim /etc/sysconfig/iptables
+exit
+sudo su - snowball
+exit
+sudo su - snowball
+exit
+sudo su -
+sudo su - snowball
+sudo netstat -tunap
+sudo service network restart
+sudo netstat -tunap
+free
+sudo shutdown -h now
+free
+sudo ps -ef | grep snowball
+sudo yum update
+sudo reboot
+htop
+sudo yum install htop
+sudo chkconfig --list | more
+sudo chkconfig cups off
+sudo chkconfig --list | more
+sudo ps -ef | grep snowball
+sudo su -
+ll
+mkdir synopsys
+cd synopsys/
+mkdir installer
+cd installer/
+ll
+ftp ftp.synopsys.com
+sudo mkdir -p /opt/synopsys/SCL
+sudo chown jrivera /opt/synopsys/SCL/
+ll
+chmod u+x SynopsysInstaller_v4.0.run 
+ll
+./SynopsysInstaller_v4.0.run 
+ll
+exit
+ls -la
+ls -lZ /home
+sestatus
+ls -la
+exit
+ls -la
+cd synopsys/
+ll
+cd installer/
+ll
+cd ..
+ls -lZ /home
+sudo restorecon -R -v /home/jrivera
+pwd
+cd installer/
+ll
+./installer -gui
+sudo yum whatprovides libXss.so.1
+sudo yum install libXScrnSaver-1.2.2-2.el6.i686
+./installer -gui
+sudo yum search libX
+sudo yum list installed | grep libX11.x86_64
+sudo yum whatprovides libXss.so.1
+sudo yum install libXScrnSaver
+pwd
+./installer -gui
+cd /opt/synopsys/SCL/scl/
+ll
+cd 2016.12_SP1/
+ll
+pwd
+cd linux64/
+ll
+pwd
+cd bin
+ll
+sudo ps -ef | grep synopsys
+sssverify /opt/synopsys/11.11/admin/license/license2014.lic
+./sssverify /opt/synopsys/11.11/admin/license/license2014.lic
+./sssverify /opt/synopsys/11.11/admin/license/license2014.lic -pinfo
+exit
+sudo su - snowball
+exit
+cat /etc/redhat-release 
+sudo su - snowball
+sudo less /etc/rc.local 
+ifconfig
+cd /opt
+ll
+sudo su - snowball
+sudo netstat -tunap
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+sudo netstat -tunap
+exit
+ifconfig
+ll /home
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+sudo passwd abiswas
+sudo chage -d 0 abiswas
+sudo su -
+sudo su - snowball
+sudo su -
+sudo su - snowball
+sudo rm -rf /opt/originlab/flexlm/
+sudo rm -rf /opt/originlab/license/
+ll
+cd /opt/originlab/
+ll
+sudo wget http://www.originlab.com/restricted/file_download.aspx?file=/ftp/flexlm/linux/Linux_11.13.1.2/Linux_FLEXnet_Server_ver_11.13.1.2.zip&site=MA
+ll
+rm file_download.aspx\?file\=%2Fftp%2Fflexlm%2Flinux%2FLinux_11.13.1.2%2FLinux_FLEXnet_Server_ver_11.13.1.2.zip 
+pwd
+cd ~
+ll
+sudo mv Linux_FLEXnet_Server_ver_11.13.1.2.zip /opt/originlab/
+cd /opt/originlab/
+ll
+sudo rm file_download.aspx\?file\=%2Fftp%2Fflexlm%2Flinux%2FLinux_11.13.1.2%2FLinux_FLEXnet_Server_ver_11.13.1.2.zip 
+ll
+sudo unzip Linux_FLEXnet_Server_ver_11.13.1.2.zip 
+ll
+pwd
+ll
+mkdir flexnet
+sudo mkdir flexnet
+ll
+sudo rsync -av Linux\ FLEXnet\ Server\ ver\ 11.13.1.2/ /opt/originlab/flexnet/
+ll
+cd flexnet/
+ll
+sudo chmod u+x lmgrd 
+sudo chmod u+x lmutil 
+ll
+less orglab 
+cd ..
+ll
+sudo chown -R snowball flexnet/
+cd ..
+ll
+sudo chown snowball originlab/
+ll
+sudo su -
+sudo su - snowball
+sudo netstat -tunap | grep 27001
+sudo vim /etc/sysconfig/iptables
+sudo less /opt/originlab/originlab.log
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+sudo netstat -tunap
+sudo netstat -tunap | grep 58905
+sudo ps -ef | grep snowball
+sudo less /opt/originlab/originlab.log
+cd /opt/originlab/
+ll
+ll /opt/ansoft/flexlm/
+ll
+sudo su - snowball
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+sudo netstat -tunap | grep 37005
+cd ~
+ls -la
+cd .ssh
+ll
+ls -la
+sudo yum -y update
+cd /opt
+ll
+cd /etc/rc.local 
+less /etc/rc.local 
+history 
+sudo su - snowball
+sudo vim /etc/rc.local 
+sudo reboot
+cd /opt
+ll
+cd mentorgraphics/
+ll
+cd mgls_v9-11_3-4-0.aol/
+ll
+cat /etc/redhat-release 
+pwd
+ll ~
+mkdir ~/mentor
+cd ~/mentor/
+ll
+gunzip mgls_v9-16_5-1-0.aol.tar.gz 
+ll
+cd /opt/
+ll
+cd mentorgraphics/
+ll
+mv /home/jrivera/mentor/mgls_v9-16_5-1-0.aol.tar .
+sudo mv /home/jrivera/mentor/mgls_v9-16_5-1-0.aol.tar .
+ll
+tar -xvf mgls_v9-16_5-1-0.aol.tar 
+ll
+ll /opt/mentorgraphics/
+ll /opt
+pwd
+ll
+sudo tar -xvf mgls_v9-16_5-1-0.aol.tar 
+ll
+rm mgls_v9-16_5-1-0.aol.tar 
+sudo rm mgls_v9-16_5-1-0.aol.tar 
+ll
+cd mgls_v9-16_5-1-0.aol/
+ll
+cd ..
+ll
+cd mgls_v9-11_3-4-0.aol/
+ll
+sudo cp License201* /opt/mentorgraphics/mgls_v9-16_5-1-0.aol/
+cd ..
+cd mgls_v9-16_5-1-0.aol/
+ll
+cd ..
+ll
+sudo chown -R snowball mgls_v9-16_5-1-0.aol/
+ll
+cd mgls_v9-16_5-1-0.aol/
+ll
+sudo ps -ef | grep snowball
+sudo vim /etc/rc.local 
+pwd
+sudo vim /etc/rc.local 
+sudo reboot
+sudo ps -ef | grep mentor
+sudo less /var/log/lic_logs/mentorgraphics.log
+cat /etc/redhat-release 
+exit
+ifconfig
+touch zzzzz
+ll
+rm zzzzz
+ll
+ping vidagpu.poly.edu
+exit
+sudo ps -ef | grep origin
+sudo less /opt/originlab/originlab.lic
+sudo ps -ef | grep snowball
+sudo less /opt/agilent/license/License2014.lic
+sudo vim /etc/sysconfig/iptables
+sudo less /opt/agilent/license/License2014.lic
+sudo vim /etc/sysconfig/iptables
+sudo less /opt/agilent/license/License2014.lic
+sudo less /opt/synopsys/11.11/admin/license/license2014.lic
+sudo vim /etc/sysconfig/iptables
+sudo su - snowball
+who
+exit
+sudo su - snowball
+sudo reboot
+sudo su - snowball
+sudo netstat -tunap
+exit
+cd /opt/
+ll
+cd mentorgraphics/
+ll
+cd mgls_v9-16_5-1-0.aol/
+ll
+sudo su - snowball
+exit
+sudo ps -ef | grep -i xilinx
+sudo less /opt/xilinx/license/Xilinx2018.lic
+exit
+sudo su - snowball
+sudo reboot
+sudo su - snowball
+sudo netstat -tunap
+42622
+sudo vim /etc/sysconfig/iptables
+service iptables restart
+sudo service iptables restart
+exit
+sudo su - snowball
+sudo su -
+exit
+http://localhost:8095/dashboard
+sudo su -
+exit
+sudo su - snowball
+ll
+sudo mv mgls_v9-17_10-2-0.aol.tar.gz /opt/mentorgraphics/
+cd /opt/mentorgraphics/
+ll
+sudo gunzip mgls_v9-17_10-2-0.aol.tar.gz 
+ll
+tar -xvf mgls_v9-17_10-2-0.aol.tar 
+ll
+sudo tar -xvf mgls_v9-17_10-2-0.aol.tar 
+ll
+sudo rm mgls_v9-17_10-2-0.aol.tar 
+ll
+sudo chown -r
+sudo chown -R snowball mgls_v9-17_10-2-0.aol/
+sudo ps -ef | grep lmgrd
+cd /opt/mentorgraphics/mgls_v9-16_5-1-0.aol
+ll
+cd less License2017.lic 
+less License2017.lic 
+cd ..
+ll
+cd mgls_v9-17_10-2-0.aol/
+ll
+vim License2018.lic
+sudo vim License2018.lic
+sudo vim License2018.lic 
+cd /opt/mentorgraphics/mgls_v9-16_5-1-0.aol/bin/
+ll
+sudo ./lmdown -c /opt/mentorgraphics/mgls_v9-11_3-4-0.aol/License2017.lic
+cd /var/log/lic_logs/
+ll
+sudo rm mentorgraphics.log.20161116 
+sudo cp mentorgraphics.log mentorgraphics.20171020
+sudo vim mentorgraphics.log 
+cd /opt/mentorgraphics/
+ll
+cd mgls_v9-17_10-2-0.aol/
+ll
+ps -ef | grep lmgrd
+pwd
+ll
+/opt/mentorgraphics/mgls_v9-17_10-2-0.aol/bin/lmgrd -c /opt/mentorgraphics/mgls_v9-17_10-2-0.aol/License2018.lic -l /var/log/lic_logs/mentorgraphics.log 
+pwd
+ll
+sudo chown snowball License2018.lic 
+ll
+sudo su - snowball
+exit
+ifconfig
+sudo vim /etc/sysconfig/network-scripts/ifcfg-eth0 
+sudo vim /etc/hosts
+ifconfig
+sudo ifdown eth0
+sudo ifup eth0
+ifconfig
+sudo reboot
+ifconfig
+sudo ps -ef | grep lmgrd
+history
+sudo iptables -L
+sudo su -
+sudo vim /etc/sysconfig/network-scripts/ifcfg-eth0
+sudo vim /etc/hosts
+sudo shutdown -h now
+htop
+sudo ps -ef | grep cadence
+ping pyke.poly.edu
+sudo su -
+exit
+history
+history | grep lmstat
+sudo ps -ef | grep cadence
+sudo su -
+exit
+sudo ps -ef | grep lmgrd
+sudo less /opt/agilent/license/License2014.lic
+sudo less /opt/ansoft/flexlm/License.lic
+sudo netstat -tunap
+sudo less /opt/ansoft/flexlm/License.lic
+sudo ps -ef | grep ansoft
+sudo /opt/ansoft/flexlm/lmdown -c /opt/ansoft/flexlm/License.lic
+sudo vim /var/log/lic_logs/ansoft.log 
+4:15:26 (lmgrd) TIMESTAMP 11/6/2017
+16:45:31 (ansoftd) OUT: "hfss_desktop" MikeKnox@KnoxTablet
+16:51:30 (ansoftd) IN: "hfss_desktop" MikeKnox@KnoxTablet
+20:15:26 (lmgrd) TIMESTAMP 11/6/2017q
+sudo ll /var/log/lic_logs/
+sudo ls -l /var/log/lic_logs/
+sudo su - snowball
+exit
+cd /opt
+ll
+cd mathematica/
+ll
+sudo less /etc/rc.local 
+less /var/log/lic_logs/mathematica.log
+ll
+cd M-MULT-LM-11/
+ll
+less M-UNIX-LM.sh 
+ls -la
+less M-UNIX-LM.sh 
+sudo ps -ef | grep mathematica
+sudo ps -ef | grep lmgrd
+cd /var/log/lic_logs/
+ll
+sudo less mathematica.log
+cd /opt
+ll
+cd mathematica/
+ll
+cd Wolfram/
+ll
+cd MathLM
+ll
+sudo locate MathLMiInstaller
+sudo ./mathlm
+cd ..
+ll
+cd ..
+ll
+cd M-MULT-LM-11/
+ll
+sudo su -
+exit
+cd /opt
+ll
+cd mathematica/
+ll
+pwd
+cd ..
+ll
+chown jrivera mathematica/
+sudo chown jrivera mathematica/
+cd mathematica/
+ll
+cd Wolfram/
+ll
+cd MathLM
+ll
+less mathpass 
+pwd
+cd /opt/mathematica/
+ll
+pwd
+ll
+sudo mv math* Wolfram/
+sudo mv monitorlm* Wolfram/
+ll
+mv ReadMe.txt Wolfram/
+sudo mv ReadMe.txt Wolfram/
+cd Wolfram/
+ll
+cd ..
+ll
+sudo chown -R root:root mathematica/
+cd mathematica/
+ll
+sudo su - snowball
+cd Wolfram/
+ll
+sudo vim mathpass
+cd ..
+ll
+cd M-MULT-LM-11/
+ll
+ll
+cd /mnt
+ll
+cd Unix/
+ll
+cd Files/
+ll
+cd ..
+cd Installer/
+ll
+./MathInstaller 
+sudo chown jrivera MathInstaller 
+cd ..
+ll
+cd ..
+ll
+cp Unix/ /home/jrivera/
+sudo cp Unix/ /home/jrivera/
+sudo su -
+cd ~
+sudo umount /mnt
+ll
+df -h
+ll
+rm Mathematica_11.2.0_LINUX.iso 
+df -h
+cd /
+sudo du -hs *
+cd /home
+sudo du -hs *
+sudo su - tpolunina
+sudo rm -rf /home/tpolunina/iscape.04.23-s008
+df -h
+cd ~
+ll
+sudo mount -o loop MathLM_11.2.0_MULT.iso /mnt
+cd /mnt
+ll
+cd Unix/
+ll
+cd bin
+ll
+cd Linux-x86-64/
+ll
+sudo su -
+pwd
+cd /mnt
+ll
+cd Unix/
+ll
+./MathLMInstaller 
+sudo ps -ef | grep cadence
+sudo netstat -tunap
+clear
+/opt/cadence/LCU/tools.lnx86/bin/lmutil lmdown -c /opt/cadence/License/License2014.lic
+sudo su - snowball
+sudo yum update
+sudo netstat -tunap
+sudo su - snowball
+sudo reboot
+sudo su - snowball
+vim /etc/rc.local 
+sudo vim /etc/rc.local 
+sudo su - snowball
+sudo vim /etc/rc.local 
+sudo su - snowball
+sudo vim /etc/sysconfig/iptables
+sudo less /var/log/lic_logs/mentorgraphics.log
+cd /opt/mentorgraphics/
+ll
+cd mgls_v9-17_10-2-0.aol/
+ll
+sudo grp 237 License2018.lic 
+sudo chgrp 237 License2018.lic 
+ll
+less License2018.lic 
+ll
+pwd
+cd bin
+ll
+./lmutil lmgrd -c /opt/mentorgraphics/mgls_v9-17_10-2-0.aol/License2018.lic -l /var/log/lic_logs/mentorgraphics.log 
+sudo less /var/log/lic_logs/mentorgraphics.log
+exit
+sudo su - snowball
+exit
+sudo ps -ef | grep rlm
+sudo less /etc/rc.
+sudo less /etc/rc.local 
+sudo vim /etc/rc.local 
+cd /opt
+ll
+cd rlm
+ll
+less rlm.2016 
+ll
+less rlm.lic
+less rlm.pwd
+less rlm.pw
+sudo less rlm.pw
+sudo ps -ef | grep rlm
+sudo service rlm stop
+cd /etc/init.d
+ll
+./rlm stop
+./rlm.sh stop
+sudo ps -ef | grep rlm
+cd /opt/rlm
+ll
+sudo su - snowball
+sudo vim /etc/init.d/rlm.sh 
+pwd
+/etc/init.d/rlm.sh stop
+cd /etc/init.d/
+ll
+./rlm.sh stop
+sudo vim rlm.sh
+cd /opt/rlm
+ll
+less rlm.lic
+sudo vim rlm.lic
+sudo cp rlm.lic rlm.20171201
+sudo vim rlm.lic
+sudo reboot
+sudo su - snowball
+cd /opt/rlm
+sudo vim rlmlic
+sudo vim rlm.lic
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+sudo vim rlm.lic
+sudo vim /opt/rlm/rlm.lic
+sudo reboot
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+exit
+sudo su - snowball
+sudo less /etc/sysconfig/iptables
+sudo su - snowball
+sudo vim /etc/sysconfig/iptables
+sudo service iptables restart
+sudo service network restart
+sudo netstat -tunap
+sudo netstat -tunap | grep 38887
+ls -l
+exit
