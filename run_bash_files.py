@@ -41,47 +41,49 @@ syscall_time_start = dict()
 syscall_time_finish = dict()
 
 
-def get_unix_time(function, args = tuple(), kwargs = {}):
-  '''
-  Returns `real`, `sys` and `user` elapsed time, like UNIX's command `time`
-  You can calculate the amount of used CPU-time used by your
-  function/callable by summing `user` and `sys`. `real` is just like the wall
-  clock.
+
+def get_unix_time(bash_script):
+  """
+  Function runs bash script returns `real`, `sys` and `user` elapsed time,
+  like UNIX's command `time`. You can calculate the amount of used CPU-time
+  used by your function/callable by summing `user` and `sys`. `real` is just
+  like the wall clock.
   Note that `sys` and `user`'s resolutions are limited by the resolution of
   the operating system's software clock (check `man 7 time` for more
-  details).
-
-  Arguments:
-    - function: This is going to be a function, which will be run.
-    - args: Function's arguments' list.
-    - kwargs: Function arguments' list as a dictionary.
-
-  Returns:
-    A dictionary, which contains 'real', 'sys' and 'user' time.
-  '''
-
-  start_time, start_resources = timestamp.time(), resource_usage(RUSAGE_SELF)
-  function(*args, **kwargs)
-  end_resources, end_time = resource_usage(RUSAGE_SELF), timestamp.time()
-
-  return {'real': end_time - start_time,
-          'sys': end_resources.ru_stime - start_resources.ru_stime,
-          'user': end_resources.ru_utime - start_resources.ru_utime}
-
-
-
-
-
-def get_bash_script_time(bash_script):
-  """
-  Function runs bash script and returns `real`, `sys` and `user` elapsed time,
-  like UNIX's command `time`.
+  details)..
 
   Arguments:
   - bash_script: Bash script, note that you should provide script with
                  absolute path.
   """
-  time = get_unix_time(subprocess.call, ('bash ' + bash_script, ), {'shell': True})
+
+  temp_unix_time_file = 'unix_time.txt'
+  command = 'time -o ' + temp_unix_time_file + ' -p bash ' + bash_script
+  subprocess.call(command, shell = True)
+
+  time = {}
+
+  if os.path.isfile(temp_unix_time_file):
+    unix_time_file = open(temp_unix_time_file, 'r')
+    file_data = unix_time_file.read()
+
+    unix_time = file_data.split('\n')
+    for time_str in unix_time:
+      if time_str:
+        temp_array = time_str.split(' ');
+        key = temp_array[0]
+        value = temp_array[1]
+
+        time[key] = float(value)
+
+    unix_time_file.close()
+  else:
+    print("File: ", temp_unix_time_file, " does not exist!")
+    sys.exit(2)
+
+  if os.path.exists(temp_unix_time_file):
+    os.remove(temp_unix_time_file)
+
   return time
 
 
@@ -276,7 +278,7 @@ def find_bash_scripts_and_run(root_dir = '/'):
         script_absolute_path = sub_dir + '/' + file
         script_file_name = (str(file)).split(".")[0]
 
-        unix_time = get_bash_script_time(script_absolute_path)
+        unix_time = get_unix_time(script_absolute_path)
 
         collect_perf_record(script_absolute_path)
 
